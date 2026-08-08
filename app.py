@@ -18,7 +18,7 @@ def health_recommendation(aqi):
         return "Hazardous ⚫ - Stay indoors, serious health risk."
 
 API_KEY = "bee7902c14902094082a0a06d73a09fa771228b7"
-st.title("🌍 AQI Analyzer")
+st.title("🌍 AQI Analyzer Dashboard")
 st.subheader("Compare Air Quality Between Two Cities")
 c1 = st.text_input("Enter first city", key="city1")
 c2 = st.text_input("Enter second city", key="city2")
