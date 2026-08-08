@@ -18,3 +18,4 @@ Python, Streamlit, Requests, Pandas, Matplotlib, WAQI API
 ## How to Run Locally
 pip install -r requirements.txt
 streamlit run app.py
+Three-city AQI comparison feature added.
